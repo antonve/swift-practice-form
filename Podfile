@@ -4,8 +4,6 @@ platform :ios, '11.0'
 use_frameworks!
 inhibit_all_warnings!
 
-plugin 'cocoapods-acknowledgements', :settings_bundle => true, :exclude => ['SwiftLint']
-
 target "swift-practice-form" do
   # Core
   pod 'RxSwift'

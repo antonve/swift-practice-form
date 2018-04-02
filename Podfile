@@ -11,7 +11,7 @@ target "swift-practice-form" do
   pod 'ReactorKit'
 
   # UI
-  pod 'SnapKit', '~> 3.2.0'
+  pod 'SnapKit', '~> 4.0.0'
 
   # Tools
   pod 'SwiftLint'

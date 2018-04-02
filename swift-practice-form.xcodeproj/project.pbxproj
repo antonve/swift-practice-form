@@ -10,6 +10,7 @@
 		3AF4815E207284B9005C86BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF4815D207284B9005C86BB /* AppDelegate.swift */; };
 		3AF48160207284B9005C86BB /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF4815F207284B9005C86BB /* FormViewController.swift */; };
 		3AF48165207284B9005C86BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF48164207284B9005C86BB /* Assets.xcassets */; };
+		3AF4817020729449005C86BB /* FormViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF4816F20729449005C86BB /* FormViewReactor.swift */; };
 		9916C02FBA5EA2C79FE4CFC4 /* Pods_swift_practice_form.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A065F98ECBA9979F260254D /* Pods_swift_practice_form.framework */; };
 		AE4390E0DBEF59576666B547 /* Pods-swift-practice-form-metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEDDE5F5A0C31782F04B1C3F /* Pods-swift-practice-form-metadata.plist */; };
 /* End PBXBuildFile section */
@@ -21,6 +22,7 @@
 		3AF4815F207284B9005C86BB /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		3AF48164207284B9005C86BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AF48169207284B9005C86BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AF4816F20729449005C86BB /* FormViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewReactor.swift; sourceTree = "<group>"; };
 		5A065F98ECBA9979F260254D /* Pods_swift_practice_form.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_practice_form.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		642D7E28FBA6A42C334AC424 /* Pods-swift-practice-form.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-practice-form.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-practice-form/Pods-swift-practice-form.release.xcconfig"; sourceTree = "<group>"; };
 		FEDDE5F5A0C31782F04B1C3F /* Pods-swift-practice-form-metadata.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Pods-swift-practice-form-metadata.plist"; path = "Pods/Pods-swift-practice-form-metadata.plist"; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				3AF4815F207284B9005C86BB /* FormViewController.swift */,
 				3AF48164207284B9005C86BB /* Assets.xcassets */,
 				3AF48169207284B9005C86BB /* Info.plist */,
+				3AF4816F20729449005C86BB /* FormViewReactor.swift */,
 			);
 			path = app;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF4817020729449005C86BB /* FormViewReactor.swift in Sources */,
 				3AF48160207284B9005C86BB /* FormViewController.swift in Sources */,
 				3AF4815E207284B9005C86BB /* AppDelegate.swift in Sources */,
 			);

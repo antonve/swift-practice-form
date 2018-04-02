@@ -1,0 +1,6 @@
+framework module Pods_swift_practice_form {
+  umbrella header "Pods-swift-practice-form-umbrella.h"
+
+  export *
+  module * { export * }
+}

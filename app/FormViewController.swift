@@ -7,8 +7,17 @@
 //
 
 import UIKit
+import ReactorKit
+import RxSwift
+import RxCocoa
 
-class FormViewController: UIViewController {
+class FormViewController: UIViewController, View {
+
+    typealias Reactor = FormViewReactor
+    var disposeBag = DisposeBag()
+
+    func bind(reactor: FormViewReactor) {
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +28,4 @@ class FormViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
-

@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A683A1F209756AA007E8C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A683A1E209756AA007E8C3C /* Assets.xcassets */; };
 		3AF4815E207284B9005C86BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF4815D207284B9005C86BB /* AppDelegate.swift */; };
 		3AF48160207284B9005C86BB /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF4815F207284B9005C86BB /* FormViewController.swift */; };
-		3AF48165207284B9005C86BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF48164207284B9005C86BB /* Assets.xcassets */; };
 		3AF4817020729449005C86BB /* FormViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF4816F20729449005C86BB /* FormViewReactor.swift */; };
 		9916C02FBA5EA2C79FE4CFC4 /* Pods_swift_practice_form.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A065F98ECBA9979F260254D /* Pods_swift_practice_form.framework */; };
 		AE4390E0DBEF59576666B547 /* Pods-swift-practice-form-metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEDDE5F5A0C31782F04B1C3F /* Pods-swift-practice-form-metadata.plist */; };
@@ -17,10 +17,10 @@
 
 /* Begin PBXFileReference section */
 		002CDD499C767100E4D7BA60 /* Pods-swift-practice-form.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-practice-form.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-practice-form/Pods-swift-practice-form.debug.xcconfig"; sourceTree = "<group>"; };
+		3A683A1E209756AA007E8C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AF4815A207284B9005C86BB /* swift-practice-form.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-practice-form.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF4815D207284B9005C86BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AF4815F207284B9005C86BB /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
-		3AF48164207284B9005C86BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AF48169207284B9005C86BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AF4816F20729449005C86BB /* FormViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewReactor.swift; sourceTree = "<group>"; };
 		5A065F98ECBA9979F260254D /* Pods_swift_practice_form.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_practice_form.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,7 +63,7 @@
 			children = (
 				3AF4815D207284B9005C86BB /* AppDelegate.swift */,
 				3AF4815F207284B9005C86BB /* FormViewController.swift */,
-				3AF48164207284B9005C86BB /* Assets.xcassets */,
+				3A683A1E209756AA007E8C3C /* Assets.xcassets */,
 				3AF48169207284B9005C86BB /* Info.plist */,
 				3AF4816F20729449005C86BB /* FormViewReactor.swift */,
 			);
@@ -150,7 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AF48165207284B9005C86BB /* Assets.xcassets in Resources */,
+				3A683A1F209756AA007E8C3C /* Assets.xcassets in Resources */,
 				AE4390E0DBEF59576666B547 /* Pods-swift-practice-form-metadata.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,7 +345,9 @@
 			baseConfigurationReference = 002CDD499C767100E4D7BA60 /* Pods-swift-practice-form.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2592MPXNAL;
 				INFOPLIST_FILE = app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "antonve.swift-practice-form";
@@ -360,7 +362,9 @@
 			baseConfigurationReference = 642D7E28FBA6A42C334AC424 /* Pods-swift-practice-form.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2592MPXNAL;
 				INFOPLIST_FILE = app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "antonve.swift-practice-form";
